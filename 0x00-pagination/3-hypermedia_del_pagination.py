@@ -43,7 +43,7 @@ class Server:
         """
         Function Docs
         """
-        assert isinstance(index, int) and\
+        assert isinstance(index, int) and \
                 0 <= index < len(self.indexed_dataset())
         assert isinstance(page_size, int) and page_size > 0
 
